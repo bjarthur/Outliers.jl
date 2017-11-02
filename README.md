@@ -8,4 +8,6 @@ Use `names(Outliers)` to list currently implemented anomaly-detection
 algorithms, and `?<algorithm-name>` to display documentation for a particular
 algorithm.
 
+These packages provide some overlapping functionality:  [mrxiaohe/RobustStats.jl](https://github.com/mrxiaohe/RobustStats.jl), [toddleo/Outliers.jl](https://github.com/toddleo/Outliers.jl).
+
 Pull requests welcome!
