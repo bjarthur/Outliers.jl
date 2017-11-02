@@ -1,5 +1,6 @@
 using Outliers
 using Base.Test
 
-# write your own tests here
-@test 1 == 2
+@testset "Tukey Fences" begin
+    tukey_fences([1,100,101,102,200]) == (97.0,105.0)
+end
